@@ -1,0 +1,15 @@
+<svg width="350" height="100" viewBox="0 0 350 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ícone: livro aberto estilizado com formas arredondadas -->
+  <g fill="#A3D9C1">
+    <path d="M22 22 Q35 40 22 58 Q28 54 34 58 Q22 40 34 22 Z" />
+    <path d="M48 22 Q61 40 48 58 Q54 54 60 58 Q48 40 60 22 Z" />
+  </g>
+  <!-- Texto "Helena Campos" em lavanda claro, fonte manuscrita -->
+  <text x="80" y="45" font-family="'Segoe Script', cursive" font-weight="600" font-size="28" fill="#A991C3">
+    Helena Campos
+  </text>
+  <!-- Texto "Pedagogia" em rosa claro e itálico -->
+  <text x="80" y="75" font-family="'Segoe Script', cursive" font-size="18" fill="#F2C6D3" font-style="italic">
+    Pedagogia
+  </text>
+</svg>

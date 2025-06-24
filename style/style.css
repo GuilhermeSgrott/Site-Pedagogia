@@ -1,0 +1,225 @@
+/* Reset e corpo */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #4A4A4A;
+  background: #e2b5db;
+}
+
+/* Header */
+header {
+  background: #dca8cc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+nav {
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+/* Botão hambúrguer - inicialmente escondido */
+#btnMobile {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2.5em;
+  cursor: pointer;
+  color: #4A4A4A;
+  user-select: none;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ffffff;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  background: #55bb41;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+}
+
+/* Botão WhatsApp flutuante */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+/* Galeria - container geral */
+.galeria .carousel-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+/* Carousel */
+.galeria .carousel {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Imagens da galeria - tamanhos menores e alta qualidade */
+.galeria .carousel img {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 120px; /* Menor largura para desktop */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Hover nas imagens */
+.galeria .carousel img:hover {
+  transform: scale(1.05);
+}
+
+/* Botões do carrossel */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255,255,255,0.8);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 5px 12px;
+  border-radius: 50%;
+  z-index: 10;
+  user-select: none;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #A8DADC;
+  color: #4A4A4A;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 900px) {
+  .galeria .carousel img {
+    max-width: 200px;  /* maior para tablets */
+  }
+}
+
+/* Responsividade para mobiles */
+@media (max-width: 600px) {
+  .galeria .carousel img {
+    max-width: 140px;  /* maior para mobiles */
+  }
+}
+
+/* RESPONSIVIDADE MENU HAMBURGUER */
+
+/* Esconde menu padrão e mostra botão hambúrguer */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background: #A8DADC;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 0 0 8px 8px;
+  }
+
+  /* Quando o menu estiver ativo (via JS), mostra o menu */
+  nav ul.active {
+    display: flex;
+  }
+
+  #btnMobile {
+    display: block;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+}
+
