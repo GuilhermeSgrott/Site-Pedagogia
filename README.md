@@ -71,8 +71,8 @@ Sinta-se à vontade para:
 ## 👨‍💻 Autor
 
 Desenvolvido por **Guilherme Sgrott Gonzaga**  
-📧 guilhermesgrott@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/guilhermesgrott/)  
+📧 guilherme_gonzaga@estudante.sc.senai.br
+🔗 www.linkedin.com/in/guilherme-sgrott-dev-frontend
 🌎 Florianópolis – SC
 
 ---
