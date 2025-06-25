@@ -36,12 +36,14 @@ Site-Pedagogia/
 ## 📸 Prévia do Site
 
 ### 💻 Versão Desktop (Cabeçalho, Serviços e Contato)
+![Captura de tela 2025-06-25 164132](https://github.com/user-attachments/assets/de6fec23-faa2-4caf-8654-5067358467cb)
 
-![Captura do site - Parte 1](./images/screenshot-desktop-1.png)
+
 
 ### 📷 Versão Desktop (Formulário e Galeria)
 
-![Captura do site - Parte 2](./images/screenshot-desktop-2.png)
+![Captura de tela 2025-06-25 164122](https://github.com/user-attachments/assets/a984d5d8-18e2-488d-994a-532b2500d975)
+
 
 ## 🧠 Melhorias Futuras
 
