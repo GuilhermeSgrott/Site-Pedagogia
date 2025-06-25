@@ -72,9 +72,7 @@ Sinta-se à vontade para:
 
 Desenvolvido por **Guilherme Sgrott Gonzaga**  
 📧 guilherme_gonzaga@estudante.sc.senai.br
-
 🔗 www.linkedin.com/in/guilherme-sgrott-dev-frontend
-
 🌎 Florianópolis – SC
 
 ---
