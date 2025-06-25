@@ -22,6 +22,7 @@ O layout e a identidade visual foram inspirados no perfil da pedagoga Helena Cam
 - `CSS3` (incluindo Flexbox e Media Queries)
 - `JavaScript` (planejado para futuras melhorias)
 
+
 ## 📁 Estrutura do Projeto
 
 Site-Pedagogia/  
@@ -36,13 +37,12 @@ Site-Pedagogia/
 ## 📸 Prévia do Site
 
 ### 💻 Versão Desktop (Cabeçalho, Serviços e Contato)
-![Captura de tela 2025-06-25 164132](https://github.com/user-attachments/assets/de6fec23-faa2-4caf-8654-5067358467cb)
 
-
+![Captura de tela 2025-06-25 164122](https://github.com/user-attachments/assets/a984d5d8-18e2-488d-994a-532b2500d975)
 
 ### 📷 Versão Desktop (Formulário e Galeria)
 
-![Captura de tela 2025-06-25 164122](https://github.com/user-attachments/assets/a984d5d8-18e2-488d-994a-532b2500d975)
+- ![Captura de tela 2025-06-25 164132](https://github.com/user-attachments/assets/de6fec23-faa2-4caf-8654-5067358467cb)
 
 
 ## 🧠 Melhorias Futuras
